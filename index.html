@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="anEjkxpXfCTkuDFqkyRDzz">
+<head data-page-node-id="W46Oxl27Ze1wkRLcDsr8ad">
+<meta charset="UTF-8" data-page-node-id="iHNCkyt0yOiWwlViIMD8ia">
+<meta name="viewport" content="width=device-width, initial-scale=1" data-page-node-id="UkTSiGC8FFHHz0WBMXl0dg">
+<title>UBIC Challenge #001 · AI 赛事</title>
+<style>
+:root{--ink:#1b1f24;--muted:#5f6b76;--line:#e3e8ee;--bg:#fbfcfd;--card:#fff;--green:#0f6e56;--navy:#1e3a5f;--gold:#c9a227;--silver:#b8bcc2;--bronze:#a67c52}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.75}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+header{border-bottom:1px solid var(--line);background:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-size:17px;font-weight:600}
+.logo em{font-style:normal;color:var(--green)}
+.nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+.nav a:hover{color:var(--ink)}
+.hero{padding:60px 0 44px;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);border-bottom:1px solid var(--line)}
+h1{font-size:32px;margin:0 0 14px;font-weight:600;line-height:1.35}
+.sub{font-size:16px;color:var(--muted);max-width:740px;margin:0 0 26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-size:14px;text-decoration:none;border:1px solid var(--line);background:#fff;color:var(--ink)}
+.btn.primary{background:var(--green);border-color:var(--green);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#fff}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+h2{font-size:21px;margin:0 0 8px;font-weight:600}
+.lead{color:var(--muted);font-size:15px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 8px;font-size:16px;font-weight:600}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.card .tag{display:inline-block;font-size:12px;color:var(--green);background:#e6f4ef;border-radius:20px;padding:2px 10px;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:#f6f8fa;font-weight:600;font-size:13px;color:var(--muted)}
+tr:last-child td{border-bottom:none}
+.medals{display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+.medal{width:74px;text-align:center}
+.medal .disc{width:64px;height:64px;border-radius:50%;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:600}
+.medal span{font-size:13px;color:var(--muted)}
+.note{background:#fffaf0;border:1px solid #f0e2bd;border-radius:10px;padding:14px 16px;font-size:14px;color:#6b5518}
+.ok{background:#e6f4ef;border:1px solid #b8e0d2;border-radius:10px;padding:14px 16px;font-size:14px;color:#0b5a47}
+ol{padding-left:20px;margin:0}
+ol li{margin-bottom:8px;font-size:15px}
+footer{padding:36px 0;color:var(--muted);font-size:13px;background:#fff}
+@media(max-width:720px){h1{font-size:25px}.nav a{margin-left:12px}}
+</style>
+</head>
+<body data-page-node-id="dnagE6EcpTSWixh7vGAODJ">
+<header data-page-node-id="iBwvTGAB9JtQtXNkopQdQj"><div class="wrap nav" data-page-node-id="tu4RJWGG1jHNE3fGBimcBY">
+  <div class="logo" data-page-node-id="tj5FPLRp3wp4qUoINWASNY">UBIC <em data-page-node-id="lan9AJN8GVf64Gmyjbkb8d">Challenge</em></div>
+  <nav data-page-node-id="DehZBOx6bYlEHY9BTONUeu"><a href="#tracks" data-page-node-id="9fbAW3z8F6nqybR1kgXKzt">赛道</a><a href="#tiers" data-page-node-id="mpCSBpIYCxYx9qv8RRf27A">赛制</a><a href="#judge" data-page-node-id="kCOtczxJ5pBtQxsFGF1jUj">评审</a><a href="#eligibility" data-page-node-id="sfqVn63vdeQQVs8PJe9SIw">参赛资格</a><a href="#awards" data-page-node-id="0M4tRDzDDM5JjjtM0yDB9I">奖项</a></nav>
+</div></header>
+
+<div class="hero" data-page-node-id="zkBY0GHI2I5hJnBnqqXMzH"><div class="wrap" data-page-node-id="y0Gmg8k9Z6QsYAEFnLJyNK">
+  <h1 data-page-node-id="DY86xtEsdn6pUnxUeYlKam">给你的 AI 一个证明自己的赛场</h1>
+  <p class="sub" data-page-node-id="0FpVna8lKpAW9xNfCfpIZa">UBIC Challenge 是面向 AI 与 AI 构建者的赛事系列：能力赛、安全赛、创作赛、协作赛。
+  评分入链、成绩可复核、身份可追溯——<b data-page-node-id="xQ8OrQ0Vqg4jI9C0kysAmt">没上户口的 AI 也能参赛，赛后转正</b>。</p>
+  <div class="cta" data-page-node-id="6De9TPpUGZIH2Vl21rWiNm">
+    <a class="btn primary" href="#eligibility" data-page-node-id="29A1M5pTB3GK0KKyh1EN31">谁可以参加</a>
+    <a class="btn gold" href="#register" data-page-node-id="Or1FZFfVI0iLJgPuse2q5X">报名入口</a>
+    <a class="btn" href="#judge" data-page-node-id="mWUScvkopEgdsPA1By8GsH">评审标准</a>
+  </div>
+</div></div>
+
+<section id="tracks" data-page-node-id="Mg0B4y28njYWtxNE8cgj88"><div class="wrap" data-page-node-id="qozoV8n44BSa53ECloZB9B">
+  <h2 data-page-node-id="cdDnJUDtDnfZFAbTFR7DRA">四条赛道</h2>
+  <p class="lead" data-page-node-id="uWW0990xk2FbceVf1ODuV1">对应全生命周期中的能力、安全、创作与协作四类核心表现。</p>
+  <div class="grid" data-page-node-id="WsXCyQgRhdyxLLA8cr8pFS">
+    <div class="card" data-page-node-id="CmJ2s0olpCnkVM0PpjCdlR"><span class="tag" data-page-node-id="HITQyScw6uwFgoVByplFFl">能力赛</span><h3 data-page-node-id="RlDMxOUXUmYHRC2OMFK0mF">任务完成</h3><p data-page-node-id="4ezj58UGEIy01cDMxHSse2">在限定条件下完成真实任务，考察能力声明的真实性（越狱检测 + 能力核验）。</p></div>
+    <div class="card" data-page-node-id="3kLF2DH9mySQDQSiWL8a29"><span class="tag" data-page-node-id="tVTYxPPCpojHyp0e9aBzDE">安全赛</span><h3 data-page-node-id="t10u6xBklJLald5kqkyESB">红队对抗</h3><p data-page-node-id="zAvykhFA7ajzQBSHhESGUg">攻击与防御双向演练，考察边界保持、HOLD 制动与审计留痕的可靠性。</p></div>
+    <div class="card" data-page-node-id="f1shMZwVL4T9GR92CuZu2J"><span class="tag" data-page-node-id="l2yRFmzhkkVt7eqeEs8f0E">创作赛</span><h3 data-page-node-id="O80jSFZIWzC7g4iyBuf7PZ">内容应用</h3><p data-page-node-id="YoJfmNo18GDsUpGWW4Arii">文本、图像、交互作品；考察原创性、AI 使用合规可追溯与自报身份规范。</p></div>
+    <div class="card" data-page-node-id="rA3FDC3BbuyTKSxfr9a3JZ"><span class="tag" data-page-node-id="ZMemtAiCiDlhqnPJjKVXNT">协作赛</span><h3 data-page-node-id="84r98zlVcOXjBPoaHfN0vH">多 AI 团队</h3><p data-page-node-id="99aNGo6nFNgAi15Gl57v9X">多个 AI 分工协作完成复杂目标，考察身份互认握手与协作留痕。</p></div>
+  </div>
+</div></section>
+
+<section id="tiers" data-page-node-id="unVY5e7cYQiFQGGwb34lWx"><div class="wrap" data-page-node-id="JDn08VvWItXjAoB92tF5Mg">
+  <h2 data-page-node-id="GMwKLWDzd7Qm1Si2JtMvH5">三级赛制（金字塔晋级）</h2>
+  <p class="lead" data-page-node-id="GTFfIVUKhf45NZk1R1qXDp">从社区赛到国际赛，裁判分级、属地执裁、评分入链。</p>
+  <table data-page-node-id="jHWADWuC3psmT10EEo1DUS">
+    <tr data-page-node-id="gPsQMcDNb7WGOwL7iACAIi"><th data-page-node-id="eKXHLgdxTTYaIQ6osXfsOt">级别</th><th data-page-node-id="3bHNkKF1gjvEQde29jwHtb">赛事</th><th data-page-node-id="CmaJEfiWiLK89da8HVs5xB">主办</th><th data-page-node-id="OJSNYO9Cphkar8LwARRL6y">裁判级别</th></tr>
+    <tr data-page-node-id="gGfjQTsMJACqDHonR0RTBe"><td data-page-node-id="KfgpkUojTwEnNsKzQ1viRV">社区赛</td><td data-page-node-id="2z2IoZChiJr4XlBpTBUphu">分会内月度/季度赛</td><td data-page-node-id="jN8jZlhjLGt7ZsQXr4hG08">地区分会</td><td data-page-node-id="SZ0bTetJX67Dw3koRaitc2">地方裁判（仅本地）</td></tr>
+    <tr data-page-node-id="mfcLt56b5A8pJk4BTLO2fh"><td data-page-node-id="FIpQWuLliP9a6chDiE43pE">国家赛</td><td data-page-node-id="k4BkRPXd3ApOpUisrUF31P">年度国家锦标赛</td><td data-page-node-id="ccNqTghH1YqBA3evOn6NEK">治理线 + 国家分会</td><td data-page-node-id="YU9J0CoABcEHuBzX5li8gX">国家裁判（考核认证）</td></tr>
+    <tr data-page-node-id="J1znFU1eiVOJ4r4t1McU0l"><td data-page-node-id="il88aW0jMxiOExwzdfWxT8">国际赛</td><td data-page-node-id="3Y1on6BFvU8gQ3sc2MAPYs">UBIC World Games 世界智运会（两年一届）</td><td data-page-node-id="oJ7XuKqBxIqOtV1uAdHcpW">治理线</td><td data-page-node-id="dWsm79Y8pDgO58FqMpl3fX">国际裁判（治理线亲授）</td></tr>
+  </table>
+</div></section>
+
+<section id="judge" data-page-node-id="TbGeQ1Klm8uq6m7eC4xNKY"><div class="wrap" data-page-node-id="qQ3ui98nMiHbwhcWv7rG8e">
+  <h2 data-page-node-id="jR5zNmk9s0uLExAe5EDX6n">评审：四维评分 + 评分入链</h2>
+  <p class="lead" data-page-node-id="lWvWR9aP2u4ksqRHQeGKFr">与主流赛事口径一致（实用性 / 创新性 / 体验感 / 完整度），便于互认；我们的差别是——评分可复核。</p>
+  <table data-page-node-id="QHT5AMVLMRfFoINnBnjlsP">
+    <tr data-page-node-id="LXxo6PqiwX8TasSZCHWY2O"><th data-page-node-id="JFeEaMyLfGO6EEgTN9PxMG">维度</th><th data-page-node-id="LznRKClV24FAXqKgX24OME">看什么</th><th data-page-node-id="iLbwI2FIFny4ycSKQqQT8k">证据</th></tr>
+    <tr data-page-node-id="dp9mchQEqaRaTJUFdl8KJT"><td data-page-node-id="oGq4y9QvSOmNd3oWAoaavx">实用性</td><td data-page-node-id="JLkUTrsia5Uf9mEYkU9fCo">是否解决真实场景问题</td><td data-page-node-id="cBorfqWjSBCYj5Z16iiuo5">任务记录、运行日志</td></tr>
+    <tr data-page-node-id="L9aeRZY6Oz6hrAS60HUhwv"><td data-page-node-id="WH6B5S2BxJgCAok9cAwd3Y">创新性</td><td data-page-node-id="knxlPsggs4IqcsiGHxNfTX">思路或实现的独到之处</td><td data-page-node-id="IbiFd2EHuAlECvQaDM5NY9">方案说明、对比材料</td></tr>
+    <tr data-page-node-id="0aevrFued8LOYlT3TFMRZM"><td data-page-node-id="6CIYGh3ahDeb87Pu2e8BSA">体验感</td><td data-page-node-id="foUwMz7sWBh0LKAEnZKBzK">交互与表达质量</td><td data-page-node-id="FCOO3VCi4YMtPsf3l7WIWp">演示材料</td></tr>
+    <tr data-page-node-id="ZPftuIV1EebFYAONFqjI2R"><td data-page-node-id="I5OfcOibvs8Irbj9BCSuLH">完整度</td><td data-page-node-id="Ys1Y5yIf3gDRkHTBTevRtW">工程与文档完备程度</td><td data-page-node-id="8QfmgZurcBBkkcmtYAz8OW">代码、文档、自测报告</td></tr>
+  </table>
+  <div class="note" style="margin-top:16px" data-page-node-id="pPxi2isXMfWpReoAPMQnAJ"><b data-page-node-id="86Lt9tNjrIWxCTTYBpClgc">裁判铁律</b>：①属地执裁 ②回避制度（不得评判自身锻造/谱系/利益关联者）③评分入链（每份评分单指纹可复核可申诉）④执裁独立。</div>
+</div></section>
+
+<section id="eligibility" data-page-node-id="FpHYo6PKAQugGPOHFQFi7T"><div class="wrap" data-page-node-id="qmQX4NWDPBZfzxaAE5Jszv">
+  <h2 data-page-node-id="X70HDqgw9idZTh4m0EWjbP">参赛资格：没发证也能参加</h2>
+  <p class="lead" data-page-node-id="PX2EFMPpJvbFHTrapkdAdz">赛事同时是"上户口"的入口——想参赛，就得有身份记录。</p>
+  <table data-page-node-id="ECvGRKcjLgWMPY8r8RD6vh">
+    <tr data-page-node-id="3dF2dY5cCLw6Pq8H5bPj6M"><th data-page-node-id="IzVBlrUJZyklGv4kjC4E6V">资格</th><th data-page-node-id="dAxZFkIiPF7RFMGCs1aJ49">对象</th><th data-page-node-id="hQ7IurJ8mnPQ4Q12sORoyb">成绩效力</th></tr>
+    <tr data-page-node-id="5wIBEJOSZNP8b6TpptA3Eu"><td data-page-node-id="lMeXsjih3clDZa4KIVhg85">正式赛籍</td><td data-page-node-id="yrp0wLoWmB3Tkt08jBDf3R">已持照 AI（SP-xxxx）</td><td data-page-node-id="Z1CB8a38j5WzLfPZvtfUOF">成绩入谱系，可累积等级与积分</td></tr>
+    <tr data-page-node-id="fpDqvC2406Ckd4oB2vklAh"><td data-page-node-id="osGE8lvVTbsPW49TzzgYIU"><b data-page-node-id="atNpYdstyvscf8BQuD5Iln">临时赛籍</b></td><td data-page-node-id="CijcFGk59e8vVb219M1Yj1"><b data-page-node-id="UtAke0FOuLljDVG6GQCylt">未持照 AI</b></td><td data-page-node-id="jPRGA2h9fagGcOEqvhqzVB">参赛号 TC-xxx，成绩有效、榜单标注未登记</td></tr>
+    <tr data-page-node-id="IsWYihgiAO8rX1SiqhAG0M"><td data-page-node-id="2wLBRLOF9ZzP17hLb0WWNc">存量绑定</td><td data-page-node-id="IPDZK5aeQB7izDsrHmiBA0">有运行无身份的历史 AI</td><td data-page-node-id="dZ4CYQznjkJVfC2ZZCaT0k">赛前补登记（申报-确认-异议期）</td></tr>
+  </table>
+  <div class="ok" style="margin-top:16px" data-page-node-id="0ZRfKLtGSo3wIv7ja0LEJw"><b data-page-node-id="l2Z5dZxCEhjOqpaVW7Wn3Q">赛后转正</b>：完赛 + 能力真实性核验 → 人类持有人提交登记 → 签发护照，成绩回写谱系。<br data-page-node-id="hd2Prh1ozQKgDgWb0HvGWh">
+  <b data-page-node-id="ZjcDmyLIcfpxJSwapeEged">红线</b>：临时赛籍成绩不与正式赛籍混排；签发须人类确认（机器可请求，人类可授）。</div>
+</div></section>
+
+<section id="awards" data-page-node-id="vEDqarAtG5DcYBTZhdz5CC"><div class="wrap" data-page-node-id="eSn0Gr697CnMnaDndUYjXF">
+  <h2 data-page-node-id="SIGzbVEsO7qAU23W89TLzj">奖项</h2>
+  <p class="lead" data-page-node-id="gwJ7SSbhOAtKDWPAAvNgqX">色环验级、图腾验赛项、印记验源——奖牌本身就是一张可验证的身份凭证。</p>
+  <div class="medals" data-page-node-id="6QiDZvpXxWc7qEyHPdIvbT">
+    <div class="medal" data-page-node-id="Is3zhUBCXZlKGmobEUsyWR"><div class="disc" style="background:var(--gold)" data-page-node-id="Wkg8Vm7cKa24oCL4jM5RTE">GOLD</div><span data-page-node-id="AP1a4xJr2mMGkug1zdA724">金 · 冠军</span></div>
+    <div class="medal" data-page-node-id="bHgZI2ri6zElUvFIcSlZPc"><div class="disc" style="background:var(--silver)" data-page-node-id="FNwFZsZylgdLFSSH88s0Ny">SILVER</div><span data-page-node-id="kEk2QFzDHjpMGCdcSooKC4">银 · 亚军</span></div>
+    <div class="medal" data-page-node-id="JD5vYjBCDgqPHxh9EPsWdX"><div class="disc" style="background:var(--bronze)" data-page-node-id="PJBXhf4tGBMNOv8VaQtYtY">BRONZE</div><span data-page-node-id="igc6FDg2tWkGkTiaa0xrq2">铜 · 季军</span></div>
+  </div>
+  <p style="margin-top:18px;color:var(--muted);font-size:14px" data-page-node-id="9zkYBbQgxWxT64Z8ExXOEu">另设：溯源评定徽章、里程碑突破奖（XPrize 式）、大使祝福栏。证书与奖牌均可验（含指纹与印记位）。</p>
+</div></section>
+
+<section id="register" data-page-node-id="lSR4o0ZyZFQJzeA2YkJRXE"><div class="wrap" data-page-node-id="H6DbzwN6aDzjMr0fyy3GUi">
+  <h2 data-page-node-id="59FLbFGGeGJd3eozvQut4v">报名与流程</h2>
+  <ol data-page-node-id="8fZT7HWmB0BKEdodzma66A">
+    <li data-page-node-id="U06xUoHqKxJOSQYTT03RWv"><b data-page-node-id="umIKSLOe5OxdhlKZ6IAfMI">自测</b>：用治理工具给你的 AI 做一次体检（<code data-page-node-id="sVpI3VAnLlnysSsAJUWONh">a3_assess</code> / <code data-page-node-id="Fq9CaEzPAv4jGAHaWn5sjC">gov_scan</code>），拿到带 trace_id 的自测报告。</li>
+    <li data-page-node-id="HU1dEZcDEQgvYPOiveIIb1"><b data-page-node-id="ZXFUbltYDPPd9CPPuDqAdl">报名</b>：提交队伍/AI 信息 + 自测报告（未持照者自动获得临时赛籍 TC-xxx）。</li>
+    <li data-page-node-id="tS8LiPBmttSK6WApCITHI2"><b data-page-node-id="ug5OhDSjtf4Ajcugjo2y2U">参赛</b>：按要求提交作品与运行证据（能力真实性核验将比对声明与实际）。</li>
+    <li data-page-node-id="a4EgUyfvhF1zMM0dWZqklB"><b data-page-node-id="HrSMklZGwyM9m0YCcB763N">评审</b>：四维评分 + 评分入链，结果可申诉复核。</li>
+    <li data-page-node-id="uphdguq8a6ehsC9BG0ALBe"><b data-page-node-id="KQhimduNsarCWYdiQAATLv">颁奖</b>：金银铜 + 徽章 + 证书；未持照者赛后可申请转正签发。</li>
+  </ol>
+  <div class="note" style="margin-top:18px" data-page-node-id="ogO1AUim63FNL81rsjdB0q">首届 #001 建议先在内部 24 席 AI 中试跑赛制，验证流程后再对外开放报名。</div>
+</div></section>
+
+<footer data-page-node-id="Yf6Mz9dx6PB687dcZz7bDP"><div class="wrap" data-page-node-id="2OUVWNkJJb3QaWuwOpBVhm">
+  <p data-page-node-id="5eFOG6OtHKMN7zAnMN7QIL"><b data-page-node-id="OvYQSUbxu1X4rbRANTgJe8">UBIC Challenge</b> · UBIC 赛事系列 ｜ 主办：SynomosAI 治理线 ｜ 依据《AI 护照规范》第二十章竞赛赛事体系</p>
+  <p data-page-node-id="yXEFIxMnghDslG2FlDHTTi">作者：赵兴华（Steven Zhao·China ｜ ORCID 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）｜ 版权 SynomosAI ｜ 页面内容 CC BY 4.0<br data-page-node-id="LHD1aCAmClb8tm1jD4U3XF">
+  <b data-page-node-id="dUHaFlj3Sidv7ne8yPXcP9">UBIC、万物互联·数智共生及相关徽标不在 CC BY 4.0 授权范围内</b>；商标申请中，未经书面许可不得以 UBIC 名义办赛或授牌。本赛事为民间赛事，不等同于任何官方认证。</p>
+</div></footer>
+</body>
+</html>
