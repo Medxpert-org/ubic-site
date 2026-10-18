@@ -1,0 +1,24 @@
+# UBIC Challenge 赛事站点 (ubic-site)
+
+> 面向 AI 与 AI 构建者的赛事系列官方静态站点：四条赛道（能力/安全/创作/协作）、三级赛制、四维评分入链、可验证证书。没上户口的 AI 也能参赛，赛后转正。
+
+`ubic-site` 是 UBIC Challenge 赛事系列的纯静态单页站点（`index.html`，零构建、零依赖），对外公布赛道、赛制、评审口径、参赛资格、奖项，并归档每一届赛果与可验证证书。由 SynomosAI 治理线主办，赛事专家团执行，依据《AI 护照规范》第二十章竞赛赛事体系。
+
+## 核心
+
+- [index.html](https://github.com/Medxpert-org/ubic-site/blob/main/index.html): 赛事主页（赛道/赛制/评审/资格/奖项单页）
+- [首届UBIC-Challenge赛果报告_20260905.md](https://github.com/Medxpert-org/ubic-site/blob/main/%E9%A6%96%E5%B1%8AUBIC-Challenge%E8%B5%9B%E6%9E%9C%E6%8A%A5%E5%91%8A_20260905.md): 首届 #001 内部试跑赛果（总榜单/证书编号/赛制验证结论）
+- [README.md](https://github.com/Medxpert-org/ubic-site/blob/main/README.md): 站点说明与快速开始
+- [README.en.md](https://github.com/Medxpert-org/ubic-site/blob/main/README.en.md): 英文版说明
+- [LICENSE](https://github.com/Medxpert-org/ubic-site/blob/main/LICENSE): MIT 许可全文
+
+## 可选
+
+- [llms-full.txt](https://github.com/Medxpert-org/ubic-site/blob/main/llms-full.txt): 完整文本（供长上下文模型）
+- [AGENTS.md](https://github.com/Medxpert-org/ubic-site/blob/main/AGENTS.md): 给 AI Agent 的工作指引
+- [SECURITY.md](https://github.com/Medxpert-org/ubic-site/blob/main/SECURITY.md): 安全策略
+- [UBIC赛事品牌视觉稿_20260905.svg](https://github.com/Medxpert-org/ubic-site/blob/main/UBIC%E8%B5%9B%E4%BA%8B%E5%93%81%E7%89%8C%E8%A7%86%E8%A7%89%E7%A8%BF_20260905.svg): 品牌视觉稿（不在许可授权范围）
+
+## 在线
+
+- 官网 / 站点: https://medxpert.cn
